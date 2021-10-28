@@ -7795,7 +7795,12 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 250px;
+    background-color: white;
+    padding: 1%;
+    border-radius: 50%;
+    
 }
 
 .pull-right {
