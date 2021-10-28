@@ -1,0 +1,13 @@
+.bg-presentation {
+    background-image: url("img/image-de-presentation.bmp");
+}
+
+.black-background {
+    background-color: rgba(165, 147, 99, 0.7);
+    padding: 40px 40px 40px 40px;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}

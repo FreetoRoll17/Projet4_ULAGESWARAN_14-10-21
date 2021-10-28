@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.container {
+    max-width: 1000px;
+}
+
+.bloc {
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    padding: 0 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.bloc-md {
+    padding: 50px;
+}
+
+.bloc-sm {
+    padding: 20px 50px;
+}
+
+
+
+.b-parallax {
+    background-attachment: fixed;
+}
+
+.bloc-lg {
+    padding: 100px 50px;
+}
+
+.tight-width-whitespace {
+    max-width: 600px;
+    margin: auto auto auto auto;
+}
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .page-container {
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .bloc-sm,
+    .bloc-md {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .b-parallax {
+        background-attachment: scroll;
+    }
+
+    .bloc-xxl,
+    .bloc-xl,
+    .bloc-lg {
+        padding: 40px 0;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+    .container {
+        width: 100%;
+    }
+    
+    .bloc {
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
+    }
+
+    .b-parallax {
+        background-attachment: scroll;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .bloc {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bloc.full-width-bloc,
+    .bloc-tile-2.full-width-bloc .container,
+    .bloc-tile-3.full-width-bloc .container,
+    .bloc-tile-4.full-width-bloc .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}

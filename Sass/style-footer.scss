@@ -1,0 +1,14 @@
+.row.row-no-gutters > [class^="col-"],
+.row.row-no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.social {
+    max-width: 400px;
+    margin: auto auto auto auto;
+}
+
+.icon-md {
+    font-size: 30px!important;
+}

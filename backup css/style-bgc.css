@@ -1,0 +1,152 @@
+.bgc-white {
+    background-color: #FFFFFF;
+}
+
+.bgc-dark-slate-blue {
+    background-color: #364577;
+}
+
+.bgc-atomic-tangerine {
+    background-color: #F3976C;
+}
+
+
+
+.d-bloc {
+    color: rgba(255, 255, 255, .7);
+}
+
+.d-bloc button:hover {
+    color: rgba(255, 255, 255, .9);
+}
+
+.d-bloc .icon-round,
+.d-bloc .icon-square,
+.d-bloc .icon-rounded,
+.d-bloc .icon-semi-rounded-a,
+.d-bloc .icon-semi-rounded-b {
+    border-color: rgba(255, 255, 255, .9);
+}
+
+.d-bloc .divider-h span {
+    border-color: rgba(255, 255, 255, .2);
+}
+
+
+.d-bloc .btn-wire,
+.d-bloc .btn-wire:hover {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.d-bloc .panel {
+    color: rgba(0, 0, 0, .5);
+}
+
+.d-bloc .panel button:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+.d-bloc .panel icon {
+    border-color: rgba(0, 0, 0, .7);
+}
+
+.d-bloc .panel .divider-h span {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.d-bloc .panel .a-btn {
+    color: rgba(0, 0, 0, .6);
+}
+
+.d-bloc .panel .a-btn:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.d-bloc .panel .btn-wire,
+.d-bloc .panel .btn-wire:hover {
+    color: rgba(0, 0, 0, .7);
+    border-color: rgba(0, 0, 0, .3);
+}
+
+.d-bloc .panel,
+.l-bloc {
+    color: rgba(0, 0, 0, .5);
+}
+
+.d-bloc .panel button:hover,
+.l-bloc button:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+.l-bloc .icon-round,
+.l-bloc .icon-square,
+.l-bloc .icon-rounded,
+.l-bloc .icon-semi-rounded-a,
+.l-bloc .icon-semi-rounded-b {
+    border-color: rgba(0, 0, 0, .7);
+}
+
+.d-bloc .panel .divider-h span,
+.l-bloc .divider-h span {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+
+
+.d-bloc .panel .btn-wire,
+.d-bloc .panel .btn-wire:hover,
+.l-bloc .btn-wire,
+.l-bloc .btn-wire:hover {
+    color: rgba(0, 0, 0, .7);
+    border-color: rgba(0, 0, 0, .3);
+}
+
+
+
+/* font color*/
+
+.tc-white {
+    color: #F3976C!important;
+}
+
+.white {
+    color: #FFFFFF!important;
+}
+
+
+.ltc-white {
+    color: #FFFFFF!important;
+}
+
+.ltc-white:hover {
+    color: #cccccc!important;
+}
+
+.ltc-atomic-tangerine {
+    color: #F3976C!important;
+}
+
+.ltc-atomic-tangerine:hover {
+    color: #c27956!important;
+}
+
+
+
+/*texture*/
+
+.texture-paper::before {
+    background: url("img/texture-paper.png");
+    background-size: 280px 280px;
+}
+
+.bloc-bg-texture::before {
+    content: "";
+    background-size: 2px 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
