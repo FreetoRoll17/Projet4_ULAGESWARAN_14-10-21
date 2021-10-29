@@ -12,3 +12,12 @@
 .icon-md {
     font-size: 30px!important;
 }
+
+@media (max-width:767px) {
+    .social {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
