@@ -3,8 +3,8 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /*-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;*/
 }
 
 
@@ -13,7 +13,7 @@ body {
 }
 
 .bloc {
-    width: 100%;
+
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
