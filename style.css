@@ -22,6 +22,9 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
+  -webkit-background-size: auto !important;
+  -moz-background-size: auto !important;
+  -o-background-size: auto !important;
   background-size: auto !important;
 }
 
@@ -264,6 +267,7 @@ a:hover {
 
   a[data-lightbox]:hover img {
     opacity: 0.6;
+    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
   }
 
@@ -490,7 +494,7 @@ a {
     background-attachment: scroll;
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1366px)  {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -552,6 +556,8 @@ p,
   .site-navigation {
     position: inherit;
     transform: none;
+    -webkit-transform: none;
+    -ms-transform: none;
   }
 
   .nav > li {
@@ -596,6 +602,7 @@ p,
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
 
@@ -679,6 +686,9 @@ body {
   clear: both;
   background: 50% 50% no-repeat;
   padding: 0 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   position: relative;
 }
@@ -1080,6 +1090,7 @@ nav .caret {
     top: 50%;
     right: 20px;
     transform: translate(0, -50%);
+    -webkit-transform: translateY(-50%);
   }
 
   .nav > li .dropdown-menu a,
@@ -1135,6 +1146,7 @@ nav .caret {
   .site-navigation {
     position: inherit;
     transform: none;
+    -webkit-transform: none;
     -ms-transform: none;
   }
 
@@ -1164,6 +1176,7 @@ nav .caret {
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
 
@@ -1255,7 +1268,7 @@ nav .caret {
   }
 }
 .bg-presentation {
-  background-image: url("img/image-de-presentation-reset.jpg");
+  background-image: url("img/image-de-presentation-reset-min.jpg");
 }
 
 .black-background {
@@ -1282,7 +1295,7 @@ h2 {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere-min.jpg");
 }
 
 /* W3C et reposit a faire*/
