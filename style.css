@@ -669,6 +669,16 @@ p,
     text-align: center;
   }
 }
+@media (max-width: 413px) {
+  .scrollToTop {
+    margin-left: 333px !important;
+  }
+}
+@media (min-width: 413px) and (max-width: 1023px) {
+  .scrollToTop {
+    margin-left: 367px !important;
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -1294,6 +1304,15 @@ h2 {
   margin-bottom: 24px;
 }
 
+@media (min-width: 500px) and (max-width: 767px) {
+  .col-sm-6 {
+    text-align: center;
+    margin: auto;
+  }
+  .col-sm-6 img {
+    margin-left: 130px;
+  }
+}
 .bg-banniere {
   background-image: url("img/la-chouette-agence-banniere-min.jpg");
 }
